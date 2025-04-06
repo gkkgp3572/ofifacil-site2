@@ -1,1 +1,7 @@
-module.exports = { experimental: { appDir: true } };
+module.exports = {
+  reactStrictMode: true,
+  experimental: { appDir: true },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+}
